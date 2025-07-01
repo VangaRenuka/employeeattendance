@@ -1,0 +1,112 @@
+/* ViewEmployees.css */
+
+/*.view-employees-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.view-employees-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #343a40;
+}
+
+.employee-list {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 5px solid #007bff;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.employee-card:hover {
+  transform: scale(1.02);
+  background-color: #e9f2ff;
+}
+
+.employee-card span {
+  display: block;
+  font-size: 15px;
+  color: #495057;
+  margin: 4px 0;
+}*/
+
+/* Container styling */
+/* Root container fills entire viewport */
+.view-employees-container {
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+/* Sticky header */
+.view-employees-container h2 {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 1px solid #dcdcdc;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #2c3e50;
+  z-index: 10;
+}
+
+/* Scrollable content */
+.employee-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 30px 20px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Employee card */
+.employee-card {
+  background-color: #ffffff;
+  border-left: 5px solid #3498db;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+}
+
+.employee-card:hover {
+  transform: scale(1.01);
+}
+
+/* Card text styling */
+.employee-card span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15.5px;
+  color: #2f3640;
+}
+
+.employee-card strong {
+  color: #34495e;
+}
+
+
+
+
